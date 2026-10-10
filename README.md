@@ -1,20 +1,18 @@
+# This is the fork to make it work with Raspbee II
+
+Because it did't. I don't care about other stuff, honestly. 
+
+---
+
 # TubesZB Home Assistant add-on repository
 
 Addon-ons for Home Assistant that allow you to easily flash new firmware on your TubesZB Coordinators
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ftube0013%2Ftubeszb_addons)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fodayny%2Ftubeszb_addons)
 
 ## Add-ons provided by this repository
 
-- **[TubesZB TI CC2652 FW Flasher](https://github.com/tube0013/tubeszb_addons/tree/main/tzb-cc2652-flasher/DOCS.md)**
-
-    Flash FW to TubesZB TI CC2652 based Coordinators
-
-- **[TubesZB Silicon Labs FW Flasher](https://github.com/tube0013/tubeszb_addons/blob/main/tzb-silabs-flasher/DOCS.md)**
-
-    Flash FW to TubesZB SiliconLabs EFR32 based Coordinators
-
-- **[TubesZB Zigpy-CLI Tools](https://github.com/tube0013/tubeszb_addons/blob/main/tzb-zigpy-cli-tools/DOCS.md)**
+- **[TubesZB Zigpy-CLI Tools](https://github.com/odayny/tubeszb_addons/blob/main/tzb-zigpy-cli-tools/DOCS.md)**
 
     Use the [Zigpy-CLI](https://github.com/zigpy/zigpy-cli) in an add-on!
 
@@ -22,9 +20,9 @@ Addon-ons for Home Assistant that allow you to easily flash new firmware on your
 
 Click on the button below:
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ftube0013%2Ftubeszb_addons)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fodayny%2Ftubeszb_addons)
 
-Or, in your Home Assistant, navigate to _Configuration_ > _Add-ons, Backups & Supervisor_ > _Add-on Store_ > _..._ > _Repositories_ and add `https://github.com/tube0013/tubeszb_addons` to the list.
+Or, in your Home Assistant, navigate to _Configuration_ > _Add-ons, Backups & Supervisor_ > _Add-on Store_ > _..._ > _Repositories_ and add `https://github.com/odayny/tubeszb_addons` to the list.
 
 
 
@@ -48,6 +46,7 @@ The libraries that tools in this addons are based on:
 
 - [beagleconnect / cc1352 flasher](https://git.beagleboard.org/beagleconnect/cc1352-flasher)
 - [JelmerT / cc2538-bsl](https://github.com/JelmerT/cc2538-bsl)
+- [tube0013](https://github.com/tube0013)
 
 Thanks to the following as well - **developers and contributors**:
 
